@@ -1,0 +1,16 @@
+body{
+	background-color: black; 
+	color: white; 
+}
+input{
+	color: black;
+}
+
+button{
+		border: 5px solid white; 
+	background-color: black;
+	color: #4dfcff;
+	background-color: black;
+	border: 5px solid white; 
+	color: #4dfcff;
+}

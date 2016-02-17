@@ -1,0 +1,26 @@
+<h1>Home and Public ChatRoom</h1>
+<h4>Got stuff to add to fire base and turn into profiles as well as make a public chat work</h4>
+<br>
+<hr>
+
+<h2>Public Chatroom:</h2>
+<label for="">User Name</label>
+<input type="text" ng-model='myUser'>
+<label for="">Message</label>
+<input type="text" ng-model='message'>
+<button ng-click='add(message, myUser)'>Submit</button>
+<hr>
+
+<div class="container" ng-repeat='message in list track by $index'>
+  <div class="row">
+    <div class="col-xs-12"><h2>{{message.myUser}}:</h2></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 message"><h4>Message: {{message.message}}</h4>
+    </div>
+  </div>
+  <hr>
+<br>
+</div>
+
+<br>
